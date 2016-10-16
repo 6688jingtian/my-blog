@@ -1,0 +1,42 @@
+body
+{
+	font-family: "微软雅黑","agency fb",arial;
+	color: white;
+	background-color: darkgray;
+	margin: 1em 15% ;
+}
+h1
+{
+	color: white;
+	background-color: transparent;//透明
+}
+a
+{
+	color: white;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;//去掉下划线
+}
+ul
+{
+	padding: 0;
+}
+li
+{
+	float: left;
+	padding: 5px;
+	margin: 20px;
+	list-style: none;/*去列表点点,相当牛逼*/
+}
+#imagegallery
+{
+	list-style: none;
+}
+#imagegallery li
+{
+	display: inline;/*默认,此元素会被显示为内联元素，元素前后没有换行符,内联元素又名行内元素*/
+}
+#imagegallery li a img
+{
+	border: 0;
+}
