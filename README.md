@@ -1,5 +1,5 @@
 # my-blog
-#示例图片：
+#DEMO示例：
 ##主界面
 <br>![](https://github.com/6688jingtian/my-blog/raw/master/img/one.png)</br>
 <br>![](https://github.com/6688jingtian/my-blog/raw/master/img/two.png)</br>
