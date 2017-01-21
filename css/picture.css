@@ -5,18 +5,19 @@ img
 }
 p
 {
+	width: 100%;
 	font-size: 15px;
 	font-style: italic;
 	font-weight: bold;
+}
+h
+{
+	width: 100%;
 }
 body
 {
 	text-align:center;
     margin: 0;
-}
-img 
-{
-    display:inline-block;
 }
 ul 
 {
@@ -43,7 +44,7 @@ a
 	border: 1px;
 	background-color:transparent;
 	text-decoration: none;
-} 
+}
 a:hover
 {
 	color: aqua;

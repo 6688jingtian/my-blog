@@ -9,21 +9,6 @@ p
 	font-style: italic;
 	font-weight: bold;
 }
-#acm
-{
-	margin: 0 108px 0 54px;
-	display: inline-block;
-}
-#web
-{
-	margin: 0 54px 0 54px;
-	display: inline-block;
-}
-#else
-{
-	margin: 0 108px 0 54px;
-	display: inline-block;
-}
 #shakeimage
 {
 	position: relative;
@@ -32,19 +17,10 @@ p
 </head>
 <body>
 <script src="js/share.js"></script>
-<div id="acm">
-<img id="shakeimage" title="点我点我!"  onclick="window.open('acm.html')" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this)" 
-	src="img/ACM.jpg"/>
-	</div>
-<div id="web">
-<img id="shakeimage" title="点我点我!" onclick="window.open('web.html')" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this)" 
-	src="img/H.png"/>
-	</div>
-<div id="else">
-<img id="shakeimage" title="点我点我!" onclick="window.open('else.html')" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this)" 
-	src="img/else.jpg"/>
-	</div>
-	<p>&nbsp;&nbsp;&nbsp;以上三个图片，最左侧为ACM知识分享，中间为web前端知识分享，最右侧为杂项分享
-	，希望这些东西能够给各位正在奋斗的兄弟姐妹们一点帮助，大家共同进步，这是我建这个网站的初衷。</p>
+<center>
+<img  id="shakeimage" title="点我点我!" onclick="window.open('show.php')" onmouseover="init(this);rattleimage()" onmouseout="stoprattle(this)" 
+src="img/H.png"/>
+</center>
+	<p>&nbsp;&nbsp;&nbsp;希望这些东西能够给各位正在奋斗的兄弟姐妹们一点帮助，大家共同进步，这是我建这个网站的初衷。</p>
 </body>
 </html>
