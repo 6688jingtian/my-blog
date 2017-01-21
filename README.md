@@ -36,4 +36,4 @@
 <br>) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 </br>
 <br>(2)users表有三个字段，分别为id,name,pwd</br>
 <br>2.建完表后需要向users表中添加管理员账号和密码</br>
-<br>登录管理界面需要把show.php（博客页）变成/main.php，进入此目录进行后台管理，实现文章的增加（返回按钮），删除</br>
+<br>登录管理界面需要把show.php（博客页）变成/main.php，进入此目录进行后台管理，实现文章的增加（返回按钮），删除（删除键）。</br>
