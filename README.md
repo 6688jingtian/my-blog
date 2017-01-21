@@ -18,11 +18,11 @@
 ##部署方法：
 <br>建议后台使用集成开发环境wampserver，前端用Hbuilder,需要在MySQL中建两个表，一个表是message（学生表），另一个表是users（用户表）;</br>
 <br>message表sql语句如下：</br>
-CREATE TABLE `message` (
- `id` tinyint(1) NOT NULL auto_increment,
- `kind` varchar(50) NOT NULL,
- `title` varchar(50) NOT NULL,
- `content` text NOT NULL,
- `lastdate` timestamp NOT NULL,
- PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 
+<br>CREATE TABLE `message` (</br>
+ <br>`id` tinyint(1) NOT NULL auto_increment,</br>
+ <br>`kind` varchar(50) NOT NULL,</br>
+ <br>`title` varchar(50) NOT NULL,</br>
+ <br>`content` text NOT NULL,</br>
+ <br>`lastdate` timestamp NOT NULL,</br>
+ <br>PRIMARY KEY (`id`)</br>
+<br>) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 </br>
